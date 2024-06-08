@@ -1,5 +1,5 @@
 Program ej1;
-const nro_detalle = 500;
+const nro_detalle = 5;
 type
     detalle = record
         cod_emp:Integer;
