@@ -37,14 +37,14 @@ var
     posMin, i:Integer;
 begin
     posMin:=1;
-    min:a_reg[1];
+    min:=a_reg[1];
     for i:=2 to cant_arch do begin
         if(a_reg[i].cod_cat<min.cod_cat) then begin
             min:=a_reg[i];
             posMin:=i;
         end;
     end;
-    leer(a_arch[posMin], a_reg[posMin]);
+    leer(a_arch[posMin], min);
 end;
 {
     Actualizacion maestro - n detalles
